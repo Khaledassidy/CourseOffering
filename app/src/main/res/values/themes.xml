@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CourseOffering" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimaryVariant">@color/black</item>
+
+
+    </style>
+
+    <style name="Theme.CourseOffering" parent="Base.Theme.CourseOffering" />
+
+    <style name="mytext" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">40sp</item>
+        <item name="fontFamily">cursive</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>
